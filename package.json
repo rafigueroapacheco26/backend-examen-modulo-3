@@ -1,0 +1,26 @@
+{
+  "name": "backend-examen-modulo-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafigueroapacheco26/backend-examen-modulo-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rafigueroapacheco26/backend-examen-modulo-3/issues"
+  },
+  "homepage": "https://github.com/rafigueroapacheco26/backend-examen-modulo-3#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

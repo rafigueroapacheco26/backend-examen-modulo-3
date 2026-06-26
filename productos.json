@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "nombre": "Portátil ASUS ProArt P16 OLED 16",
+    "precio": 3268.37
+  },
+  {
+    "id": 2,
+    "nombre": "Portátil Acer Aspire Go 15",
+    "precio": 469
+  },
+  {
+    "id": 3,
+    "nombre": "Apple iPhone 17 Pro Max",
+    "precio": 1439
+  },
+  {
+    "id": 4,
+    "nombre": "Newskill Serike V2 Teclado",
+    "precio": 66.04
+  },
+  {
+    "id": 5,
+    "nombre": "Disco Duro Kingston NV3 1TB",
+    "precio": 154.95
+  }
+]
