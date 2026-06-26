@@ -16,6 +16,8 @@ app.post('/api/productos', (req, res) => {
   const { nombre, precio } = req.body
   if (!nombre || !precio) 
     return res.status(400).send({ error: 'Faltan datos' })
+  if( productos.find( (producto) => producto.nombre === nombre ) )
+    return res.status(400).send({ error: 'El producto ya existe' })
   const id = productos.length + 1
   productos.push({ id, nombre, precio })
   res.send({ mensaje: 'Producto creado correctamente' })
